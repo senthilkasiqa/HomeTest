@@ -12,6 +12,9 @@
         <exec.mainClass>com.test.learning.User</exec.mainClass>
     </properties>
 
+    <profiles>
+    <profile>
+    <id>code-generator</id>
     <build>
         <plugins>
             <plugin>
@@ -42,10 +45,11 @@
                         </configuration>
                     </execution>
                 </executions>
-
             </plugin>
         </plugins>
     </build>
+    </profile>
+    </profiles>
 
 
 </project>
