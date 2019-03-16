@@ -33,7 +33,6 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
-                <version>LATEST</version>
                 <executions>
                     <execution>
                         <phase>test</phase>
